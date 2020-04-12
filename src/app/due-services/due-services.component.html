@@ -14,7 +14,7 @@
     <!-- Weight Column -->
     <ng-container matColumnDef="dueDate">
         <mat-header-cell *matHeaderCellDef> Next Service </mat-header-cell>
-        <mat-cell *matCellDef="let service"> {{service.dueDate}} </mat-cell>
+        <mat-cell *matCellDef="let service"> {{service.dueDate | date}} </mat-cell>
     </ng-container>
 
     <!-- Symbol Column -->
